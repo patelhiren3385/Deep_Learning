@@ -1,4 +1,7 @@
+##############################################################################################
 '''Binary Classification Problem Solved using :: MP Neuron'''
+##############################################################################################
+
 import pandas as pd
 import sklearn.datasets
 import numpy as np
