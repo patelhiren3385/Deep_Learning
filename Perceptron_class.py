@@ -91,10 +91,10 @@ class Perceptron:
         plt.title('Perceptron - Binary Classification')
         plt.grid(True)
         plt.ylim([0,1])
-        plt.show()
         plt.savefig('Perceptron - Binary Classification.pdf', bbox_inches='tight')
         plt.savefig('Perceptron - Binary Classification.png', bbox_inches='tight')
         plt.savefig('Perceptron - Binary Classification.eps', bbox_inches='tight')
+        plt.show()
 
 perceptron_cancer = Perceptron()
 result_train = perceptron_cancer.fit(x_train.values,y_train,100,0.01)
